@@ -1,7 +1,7 @@
 # TicTacToeGUI
 # How To install and use in linux
 
-type in command :
+type in terminal :
 
 > dpkg -i python3-tictactoe_0.1-1_all.deb
 
