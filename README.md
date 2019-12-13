@@ -1,7 +1,12 @@
 # TicTacToeGUI
-# How To Use in linux
+# How To install and use in linux
 
-first, type <i>apt install python3-tk</i> and then run the program with command, <i>python3 TicTacToe.py</i>
+type in command :
 
-# How To Use in Windows
+> dpkg -i python3-tictactoe_0.1-1_all.deb
+
+and then, type in terminal:
+
+> tictactoe
+# How To use in Windows
 first you need to install python 3 and then run the program on cmd with command <i>py TicTacToe.py</i>
