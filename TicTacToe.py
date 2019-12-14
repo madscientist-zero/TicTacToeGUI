@@ -159,51 +159,50 @@ st = ttk.Style()
 st.configure("my.TButton", font=('Chiller',24,'bold'))
 
 b1 = ttk.Button(root, text=" ", style="my.TButton")
-b1.grid(row=0, column=0, sticky="snew", ipadx=40,ipady=40)
+b1.grid(row=1, column=0, sticky="nwse", ipadx=50,ipady=50)
 b1.config(command = lambda : ButtonClick(1))
 
 
 b2 = ttk.Button(root, text=" ",style ="my.TButton")
-b2.grid(row=0, column=1, sticky="snew", ipadx=40,
-        ipady=40)
+b2.grid(row=1, column=1, sticky="snew", ipadx=50, ipady=50)
 b2.config(command = lambda : ButtonClick(2))
 
 b3= ttk.Button(root, text=" ",style="my.TButton")
-b3.grid(row=0, column=2, sticky="snew", ipadx=40,
-        ipady=40)
+b3.grid(row=1, column=2, sticky="snew", ipadx=50,
+        ipady=50)
 b3.config(command = lambda : ButtonClick(3))
 
 b4 = ttk.Button(root, text=" ",style="my.TButton")
-b4.grid(row=1, column=0, sticky="snew", ipadx=40,
-        ipady=40)
+b4.grid(row=2, column=0, sticky="snew", ipadx=50,
+        ipady=50)
 b4.config(command = lambda : ButtonClick(4))
 
 b5 = ttk.Button(root, text=" ",style="my.TButton")
-b5.grid(row=1, column=1, sticky="snew", ipadx=40,
-        ipady=40)
+b5.grid(row=2, column=1, sticky="snew", ipadx=50,
+        ipady=50)
 b5.config(command = lambda : ButtonClick(5))
 
 b6 = ttk.Button(root, text=" ",style="my.TButton")
-b6.grid(row=1, column=2, sticky="snew", ipadx=40,
-        ipady=40)
+b6.grid(row=2, column=2, sticky="snew", ipadx=50,
+        ipady=50)
 b6.config(command = lambda : ButtonClick(6))
 
 b7 = ttk.Button(root, text=" ",style="my.TButton")
-b7.grid(row=2, column=0, sticky="snew", ipadx=40,
-        ipady=40)
+b7.grid(row=3, column=0, sticky="snew", ipadx=50,
+        ipady=50)
 b7.config(command = lambda : ButtonClick(7))
 
 b8 = ttk.Button(root, text=" ",style="my.TButton")
-b8.grid(row=2, column=1, sticky="snew", ipadx=40,
-        ipady=40)
+b8.grid(row=3, column=1, sticky="snew", ipadx=50,
+        ipady=50)
 b8.config(command = lambda : ButtonClick(8))
 
 b9 = ttk.Button(root, text=" ",style="my.TButton")
-b9.grid(row=2, column=2, sticky="snew", ipadx=40,
-        ipady=40)
+b9.grid(row=3, column=2, sticky="snew", ipadx=50,
+        ipady=50)
 b9.config(command = lambda : ButtonClick(9))
 
 Button(text="New Game..", font=('Papyrus', 22, 'bold'), bg='Purple', fg='white',
-            border=5, width=4,command = lambda :Restart()).grid(row=4, column=1, sticky="we")
-
+            border=5, width=4,command = lambda :Restart()).grid(row=0, column=1, sticky="we")
+root.resizable(0,0)
 root.mainloop()
