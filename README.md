@@ -3,7 +3,7 @@
 
 type in terminal :
 
-> dpkg -i python3-tictactoe_0.1-1_all.deb
+> dpkg -i python3-tictactoe_2.0.deb
 
 and then, type in terminal:
 
